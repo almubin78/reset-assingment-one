@@ -1,5 +1,9 @@
+body{
+    margin: 0 auto;
+}
 /* Header section */
 header {
+    margin: 0 auto;
     width: 1600px;
     height: 808px;
     background-image: url('./images/banner/banner3.png');
@@ -14,25 +18,70 @@ header div {
     top: 15%;
     right: 100px;
     color: aliceblue;
-    
+
 }
-header div h1{
-    font-family:Georgia, 'Times New Roman', Times, serif;
+
+header div h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     letter-spacing: 5px;
 }
+
 header div button {
     cursor: pointer;
     width: 160px;
     height: 64px;
     margin-top: 32px;
-    border-radius:0px 10px;
+    border-radius: 0px 10px;
     font-weight: 700;
     font-size: 20px;
     background-color: #c7d5dd;
-    color:#2073B6;
+    color: #2073B6;
 }
-header div button:hover{
+
+header div button:hover {
     background-color: #209FD1;
-    color:aliceblue;
-    transition:0.9s ease-in-out;
+    color: aliceblue;
+    transition: 0.9s ease-in-out;
+}
+/* Main section started */
+.main {
+    margin: 50px auto;
+    background-image: url('./images/person.png');
+    background-repeat: no-repeat;
+    width: 1072px;
+    height: 723.3px;
+    position: relative;
+}
+.main div{
+    position: absolute;
+    text-align: right;
+    top: 25%;
+    right: 100px;
+    text-align: left;
+}
+.plans{
+    margin: 50px auto;
+}
+.plans h3{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 5px;
+}
+hr{
+    width:100px;
+    font-weight: 800;
+}
+.plan{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    height: 210px;
+}
+
+.plan .single-plan{
+    
+}
+.plan .single-plan h4{
+    font-weight:800;
+    font-size: 20px;
 }
