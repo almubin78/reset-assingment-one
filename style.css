@@ -1,6 +1,36 @@
 body{
     margin: 0 auto;
 }
+nav{
+    /* width:100%; */
+    position: sticky;
+    top:10px;
+    left:0;
+    width: 200px;
+}
+nav ul{
+    background: transparent;
+    
+}
+nav ul li{
+    list-style: none;
+    margin-right: 30px;
+    line-height: 20px;
+    background: #0E7FB9;
+    margin:10px;
+    padding: 5px;
+}
+nav ul li a:hover{
+    color: white;
+    background: #9dbac9;
+}
+nav ul li:hover{
+    background: #9dbac9;
+}
+nav ul li a{
+    text-decoration:none;
+    color: #000;
+}
 /* Header section */
 header {
     margin: 0 auto;
