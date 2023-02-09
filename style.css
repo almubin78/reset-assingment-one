@@ -29,13 +29,14 @@ header div h1 {
 header div button {
     cursor: pointer;
     width: 160px;
-    height: 64px;
+    height: 54px;
     margin-top: 32px;
     border-radius: 0px 10px;
     font-weight: 700;
     font-size: 20px;
     background-color: #c7d5dd;
     color: #2073B6;
+    border:none;
 }
 
 header div button:hover {
@@ -84,4 +85,41 @@ hr{
 .plan .single-plan h4{
     font-weight:800;
     font-size: 20px;
+}
+/* Footer section */
+footer{
+    width:100%;
+    background-color: rgb(22, 19, 19);
+    height: 500px;
+    color: aliceblue;
+    
+    
+}
+.ft-container{
+    padding:130px;
+    display: flex;
+    justify-content: space-between;
+}
+.right-side input{
+    padding: 5px;
+    background: #000;
+    color:whitesmoke;
+    border-radius: 5px;
+}
+.right-side button{
+    cursor: pointer;
+    width: 160px;
+    height: 54px;
+    margin-top: 32px;
+    border-radius: 0px 10px;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: #c7d5dd;
+    color: #2073B6;
+    border:none;
+}
+.right-side button:hover {
+    background-color: #209FD1;
+    color: aliceblue;
+    transition: 0.9s ease-in-out;
 }
