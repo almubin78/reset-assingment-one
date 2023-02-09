@@ -95,15 +95,15 @@ header div button:hover {
     color:red;
 }
 .plans{
-    margin: 50px auto;
+    margin: 100px auto;
 }
-.plans h3{
+.plans h1{
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     letter-spacing: 5px;
 }
 hr{
-    width:100px;
+    width:200px;
     font-weight: 800;
 }
 .plan{
@@ -135,7 +135,7 @@ hr{
 .bonus-content{
     position: absolute;
     left:30px;
-    color: rgb(139, 161, 181);
+    color: rgb(245, 247, 248);
 }
 .bonus-content button{
     cursor: pointer;
